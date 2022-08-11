@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "next-heroku",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,19 +10,16 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
-    "axios": "^0.27.2",
-    "next": "12.2.3",
+    "next": "12.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sweetalert2": "^11.4.24"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.3"
+    "eslint-config-next": "12.2.4"
   },
-  "engines":{
-    "node": "16.15.1",
-    "npm":"8.11.0"
+  "engines": {
+    "node": "16.16.1",
+    "npm": "8.11.0"
   }
-
 }
